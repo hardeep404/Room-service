@@ -35,6 +35,7 @@ const BookingForm = () => {
     console.log(checkOut);
     console.log(room);
     console.log(guest);
+    alert("yes, we have room for ", today, "to ", checkOut);
   };
 
   return (
