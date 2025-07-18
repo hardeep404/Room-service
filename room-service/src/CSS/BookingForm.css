@@ -1,0 +1,134 @@
+.container-top {
+  width: 1200px;
+  height: 517px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Forum", serif;
+}
+
+.inner-container {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 50px;
+  width: 1200px;
+  height: 362px;
+  background: linear-gradient(
+    180deg,
+    #222121 0%,
+    rgba(34, 33, 33, 0.31) 54.21%,
+    #222121 100%
+  );
+}
+
+.text-con {
+  width: 508px;
+  height: 162px;
+}
+
+.text-con p {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 126%;
+  letter-spacing: 0;
+}
+
+.time-ava {
+  height: 517px;
+  width: 405px;
+  box-sizing: border-box;
+  background-color: rgba(191, 151, 102, 1);
+  z-index: 3;
+  position: relative;
+  top: -127px;
+  padding: 60px;
+}
+
+.curr-dat {
+  display: flex;
+  flex-direction: column;
+}
+
+.curr-dat span {
+  width: 100px;
+  height: 26px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: rgba(23, 23, 23, 1);
+  border: none;
+  outline: none;
+}
+
+.curr-dat input {
+  background-color: rgba(143, 113, 77, 1);
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  width: 285px;
+  box-sizing: border-box;
+  height: 45px;
+  padding: 5px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.Room-guest {
+  width: 114px;
+  height: 83px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.con-room {
+  display: flex;
+  flex-direction: column;
+}
+
+.con-room span {
+  width: 56px;
+  height: 26px;
+  font-size: 24px;
+  color: rgba(23, 23, 23, 1);
+}
+
+.con-room input {
+  width: 114px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: rgba(143, 113, 77, 1);
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  padding: 5px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.btn-check {
+  width: 169px;
+  height: 24px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 1);
+  top: 40px;
+  left: 35px;
+  cursor: pointer;
+}
+
+.btn-check img {
+  height: 14px;
+  width: 7px;
+}

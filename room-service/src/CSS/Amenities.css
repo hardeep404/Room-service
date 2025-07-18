@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Poppins:wght@300;400&display=swap");
+
+.amenities-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  padding-bottom: 30px;
+  height: 1907px;
+}
+
+.section {
+  display: flex;
+  width: 1200px;
+  height: 400px;
+  position: relative;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.lorem-text1 {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  color: rgba(87, 86, 86, 1);
+}
+
+.lorem-text1 p {
+  font-weight: 300;
+  font-size: 18px;
+  text-align: right;
+  color: rgba(87, 86, 86, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+
+.intro-section {
+  height: 400px;
+  display: flex;
+  width: 600px;
+}
+
+.footer-divider12 {
+  border-color: rgba(255, 255, 255, 1);
+  height: 105px;
+  width: 0;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 120px;
+}
+
+.intro-section p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(191, 151, 102, 1);
+  width: 460px;
+  height: 32px;
+  position: absolute;
+  top: 230px;
+}
+
+.intro-section span {
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 126%;
+  letter-spacing: 0;
+  color: rgba(23, 23, 23, 1);
+  position: absolute;
+  top: 245px;
+  width: 593px;
+  height: 162px;
+}
+
+.amenity-container {
+  display: flex;
+  background-color: rgba(45, 44, 44, 1);
+  height: auto;
+}
+
+.amenity-container.reverse {
+  flex-direction: row-reverse;
+  
+}
+
+.image-placeholder {
+  width: 50%;
+  background-color:rgba(217, 217, 217, 1);
+}
+
+.amenity-content {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+.amenity-content img {
+  width: 45px;
+  height: 45px;
+}
+
+.amenity-content h5 {
+  font-family: "Forum", serif;
+  font-size: 24px;
+  color:rgba(255, 255, 255, 1);
+}
+
+.amenity-content p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 1.5;
+}
+
+.amenity-content button {
+  align-self: flex-start;
+  background: transparent;
+  color: rgba(191, 151, 102, 1);
+  font-style: italic;
+  font-size: 16px;
+  border: none;
+  border-top: 1px solid rgba(191, 151, 102, 1);
+  border-bottom: 1px solid rgba(191, 151, 102, 1);
+  padding: 8px 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.amenity-content button img {
+  width: 7px;
+  height: 14px;
+}
