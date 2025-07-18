@@ -31,6 +31,7 @@
 .set-space {
   position: relative;
   left: 80px;
+  width: 1268px;
   background-color: transparent;
 }
 
@@ -83,10 +84,12 @@
 .space-from{
   position: relative;
   left: 120px;
+  width: 1200px;
   top:-40px
 }
 
 .add-btn-space{
   position: relative;
-  left: 1000px;
+  left:800px;
+  width: 300px;
 }

@@ -106,3 +106,7 @@
   border: none;
   text-decoration: none;
 }
+
+.simple-link:hover {
+  color: #bf9766;
+}

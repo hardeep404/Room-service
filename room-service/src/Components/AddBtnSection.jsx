@@ -99,7 +99,7 @@ const AddCTAButton = () => {
 
       <div className="cta-list">
         {ctaList.map((cta, index) => (
-          <a
+          <Link
             key={index}
             to={`/${cta.url}`}
             className="cta-button"
@@ -111,7 +111,7 @@ const AddCTAButton = () => {
             rel="noopener noreferrer"
           >
             {cta.text}
-          </a>
+          </Link>
         ))}
       </div>
     </div>
