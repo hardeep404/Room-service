@@ -16,7 +16,6 @@
   background-color: transparent;
 }
 
-
 .top-container-boss {
   width: 1440px;
   font-family: "forum";
@@ -61,7 +60,7 @@
   color: rgba(255, 255, 255, 1);
 }
 
-.main-con button {
+.main-con div {
   align-self: flex-start;
   background: transparent;
   color: rgba(255, 255, 255, 1);
@@ -79,7 +78,13 @@
   right: -1295px;
 }
 
-.main-con button img {
+.main-con div img {
   width: 7px;
   height: 14px;
+  margin-left: 5px;
+}
+
+.link-edit {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
 }

@@ -3,6 +3,7 @@ import "../../CSS/NotFoundPage.css";
 import icon from "../../assets/XMLID_67_.svg";
 import Navbar from "../Page1/Navbar";
 import Footer from "../Page1/Footer";
+import { Link } from "react-router-dom";
 
 const NotFoundPage = () => {
   return (
@@ -18,12 +19,14 @@ const NotFoundPage = () => {
             Sorry But The Page You Are Looking For Does Not Exist, Have Been
             Removed, Name <br /> Changed Or Is Temporarily Unavailable
           </h5>
-          <button>
-            Back To Home
-            <img src={icon} alt="arrow icon" />
-          </button>
+          <div>
+            <Link className="link-edit" to={"/"}>
+              Back To Home
+              <img src={icon} alt="arrow icon" />
+            </Link>
+          </div>
         </div>
-        <Footer/>
+        <Footer />
       </div>
     </>
   );
